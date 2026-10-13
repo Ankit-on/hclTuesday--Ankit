@@ -1,16 +1,47 @@
 <html>
-  <body>
-    <script>
-      let a=parseInt(prompt("Enter the value of a"),10);
-      let b=parseInt(prompt("Enter the value of b"),10);
+    <head>
+        <title>
+           1st Page for Git Commit.
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>Welcome TO HCL</h2>
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>JECRC Foundation</li>
+        </ul>
+        <table>
+            <thead>
+                 <tr>
+                    <td>S.No</td>
+                    <td>1<sup>st</sup> Input</td>
+                    <td>Method</td>
+                    <td>2<sup>nd Input</td>
+                    <td>Output</td>    
+                 </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td id="first"></td>
+                        <td>+</td>
+                        <td id="second"></td>
+                        <td id="output"></td>
+                    </tr>
+            </tbody>
+        </table>
+        <script>
+             let a = parseInt(prompt("Enter the value of a: "),10);
+             let b = parseInt(prompt("Enter the value of b: "),10);
 
-      document.getElementById("first").textContent=a;
-      document.getElementById("second").textContent=b;
-      document.getElementById("sum").textContent=a+b;
-    </script>
-    <p>
-      <h2>HCL full Stack Training</h2>
-      <b>Welcome To HCLTech</b>
-    </p>
-  </body>
+             document.getElementById("first").textContent = a;
+             document.getElementById("second").textContent = b;
+             document.getElementById("output").textContent ="Sum: " + (a+b); 
+        </script>
+    </body>
+    <p>i am Selected in HPE</p>
+    <p>I am Sleccted in HPE</p>
 </html>
